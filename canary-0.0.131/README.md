@@ -8,7 +8,17 @@ Date From: **09/21/2021 10:36:00 UTC**
 
 ## Codebase Structure
 
-- `app_bootstrap`: Main code for bootstrapping the app
+- `app_bootstrap/`: Main code for bootstrapping the app
+  - `autoStart/`: Library for managing auto starting for various OSs
+  - `data/`: Generally unused directory for data
+    - `quotes_copy.json`: Seemingly unused JSON data for old loading quotes
+  - `firstRun/`: Library for setting up some things on first run (unused except Windows)
+  - `images/`: General images folder
+    - `img_lucky_dice.png`: Image used by splash screen on host update for unupdatable systems (Linux)<sup>?</sup>
+  - `splash/`: Web code for splash screen
+  - `startupMenu/`: Unknown
+  - `videos/`: General videos folder
+    - `connecting.webm`: Video used by splash screen for loading animation<sup>?</sup>
 - `common/`: Commonly used utilities
   - `Backoff.js`: Class / general library for (re)trying a task multiple times
   - `crashReporterSetup.js`: Sets up crash reporting (Sentry)
