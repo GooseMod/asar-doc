@@ -9,3 +9,8 @@ Discord desktop's app.asar with additional documentation and information.
 Channel: **Canary**
 App Version: **0.0.131** (Canary, Linux)
 Date From: **09/21/2021 10:36:00 UTC**
+
+
+## Changes
+
+Any changes (added comments) will be identified via the prefix `[asar-doc]` to make differencies clearer.
